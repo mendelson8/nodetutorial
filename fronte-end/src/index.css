@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto ;
+}

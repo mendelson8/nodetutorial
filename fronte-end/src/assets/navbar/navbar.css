@@ -1,0 +1,50 @@
+.menubar{
+    position: fixed;
+    width: 1240px;
+    height: 80px;
+    left: 128px;
+    right: -128px;
+    top: 24px;
+    bottom: -24px;
+border-radius: 0px 0px 10px 10px;
+backdrop-filter: blur(40px);
+background: rgba(0, 0, 0, 0.5);
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 300;
+padding: 16px 32px;
+}
+.menubar .logo{
+color: white;
+font-family: Inter;
+font-size: 16px;
+font-weight: 800;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+.menubar .logo .red{
+    color: red;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 800;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+.menubar ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 50px;
+}
+.menubar ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 800;
+line-height: 19px;
+letter-spacing: 0%;
+}
